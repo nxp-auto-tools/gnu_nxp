@@ -1,0 +1,154 @@
+SRCDESC=(
+    ########################  Sources section   ########################
+    # dINSTPREFIX
+    [0]="gcc-6.3.1-linaro"
+
+    # dLSTSOURCES
+    [1]="gcc-6.3.1-linaro \
+	 binutils-2.29 \
+	 glibc-2.25 \
+	 localedef-2.19 \
+	 tzdata2017b \
+	 libtirpc-1.0.1 \
+	 newlib-2.5.0 \
+	 gdb-7.12.1 \
+	 python-2.7 \
+	 linux-3.19 \
+	 zlib-1.2.11 \
+	 libelf-0.8.13 \
+	 libiconv-1.15 \
+	 gettext-0.18.1.1 \
+	 gmp-6.1.2 \
+	 mpfr-3.1.5 \
+	 mpc-1.0.3 \
+	 ppl-1.2 \
+	 isl-0.16.1 \
+	 cloog-0.18.4 \
+	 expat-2.2.1 \
+	 termcap-1.3.1"
+
+
+    # dLSTPATCHES
+    [2]="libelf.install_pdf \
+         gdb.7-12-1_fix-python-macro \
+         gdb.fix-guile-pdf \
+         expat.fix_dep_glibc-2-25 \
+         newlib.armv6m_no_trap \
+         newlib.aarch64-fix-nosys \
+         newlib.aarch64-fix-semihosting \
+         glibc.2-25_fix-common-symb \
+         gcc.fix_armv8-libgfortran \
+         gcc.6-3-1-linaro-backport-armv8r-cortex-r52"
+
+    ######################## Parameters section ########################
+    # dLSTSTEPS
+    [10]=""
+
+    # dTRPTARGET
+    [11]=""
+
+    # dTRPBUILD
+    [12]=""
+
+    # dTRPHOST
+    [13]=""
+
+    # dARCH
+    [14]=""
+
+    # dTBUILD
+    [15]=""
+
+    # dWTBUILD
+    [16]=""
+
+    ########################   Config section   ########################
+    # dBINCONFIG
+    [30]="--enable-plugin"
+
+    # dGCCCONFIG1
+    [31]="--disable-libatomic"
+
+    # dGCCCONFIG2
+    [32]="--disable-libatomic"
+
+    # dGCCCONFIG3
+    [33]=""
+
+    # dLIBCONFIG
+    [34]="--enable-profile"
+
+    # dGMPCONFIG32
+    [35]=""
+
+    # dGMPCONFIG64
+    [36]=""
+
+    # dTGMPCONFIG32
+    [37]=""
+
+    # dTGMPCONFIG64
+    [38]=""
+
+    # dPPLCONFIG32
+    [39]="--enable-interfaces=c,c++ --with-gmp=\\\$HOSTLIBINST/usr"
+
+    # dPPLCONFIG64
+    [40]="--enable-interfaces=c,c++ --with-gmp=\\\$HOSTLIBINST/usr/64"
+
+    # dCLOOGCONFIG32
+    [41]="--with-gmp=system --with-isl=system --with-gmp-prefix=\\\$HOSTLIBINST/usr --with-isl-prefix=\\\$HOSTLIBINST/usr"
+
+    # dCLOOGCONFIG64
+    [42]="--with-gmp=system --with-isl=system --with-gmp-prefix=\\\$HOSTLIBINST/usr/64 --with-isl-prefix=\\\$HOSTLIBINST/usr/64"
+
+    # dWGMPCONFIG
+    [43]=""
+
+    # dWPPLCONFIG
+    [44]="--enable-interfaces=c,c++ --with-gmp=\\\$WHOSTLIBINST/usr"
+
+    # dWCLOOGCONFIG
+    [45]="--with-gmp=system --with-isl=system --with-gmp-prefix=\\\$WHOSTLIBINST/usr --with-isl-prefix=\\\$WHOSTLIBINST/usr"
+
+    # dWBINCONFIG
+    [46]=""
+
+    # dWGCCCONFIG
+    [47]=""
+
+    ########################  Multilib section  ########################
+    # dMLSIZE
+    [60]=""
+
+    # dMLDIRS
+    [61]=""
+
+    # dMLCONFIG
+    [62]=""
+
+    # dMLCFLAGS
+    [63]=""
+
+    # dMLTARGET
+    [64]=""
+
+    # dMLDEJAGNU
+    [65]=""
+
+    ########################   Tests section    ########################
+    # dBRDTYPE
+    [70]=""
+
+    # dBRDNAME
+    [71]=""
+
+    # dBRDHOSTNAME
+    [72]=""
+
+    # dBRDLIBDIR
+    [73]=""
+
+    # dBRDTESTRUNFLAGS
+    [74]=""
+)
