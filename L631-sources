@@ -1,0 +1,28 @@
+The specific source code versions used in this distribution, and their
+corresponding locations are the following:
+
+gcc-6.3.1               linaro git repository:
+                        git clone --config 'remote.origin.fetch=+refs/changes/*:refs/remotes/changes/*' http://git.linaro.org/git/toolchain/gcc.git gcc.git
+                        cd gcc.git
+                        git checkout f121e2071eccc565889dd943b3219fbb9349cfcc
+binutils-2.29.1         http://ftp.gnu.org/gnu/binutils/binutils-2.29.1.tar.gz
+gdb-7.12.1              ftp://ftp.gnu.org/gnu/gdb/gdb-7.12.1.tar.xz
+glibc-2.26              http://ftp.gnu.org/gnu/glibc/glibc-2.26.tar.gz
+libtirpc-1.0.1          http://downloads.sourceforge.net/project/libtirpc/libtirpc/1.0.1/libtirpc-1.0.1.tar.bz2
+newlib-2.5.0            ftp://sources.redhat.com/pub/newlib/newlib-2.5.0.tar.gz
+linux-3.19              https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.19.tar.bz2
+zlib-1.2.11             http://sourceforge.net/projects/libpng/files/zlib/1.2.11/zlib-1.2.11.tar.gz/download
+libelf-0.8.13           http://www.mr511.de/software/libelf-0.8.13.tar.gz
+libiconv-1.15           http://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.15.tar.gz
+gettext-0.18.1.1        http://ftp.gnu.org/gnu/gettext/gettext-0.18.1.1.tar.gz
+gmp-6.1.2               ftp://ftp.gnu.org/gnu/gmp/gmp-6.1.2.tar.bz2
+mpfr-3.1.5              http://www.mpfr.org/mpfr-3.1.5/mpfr-3.1.5.tar.bz2
+mpc-1.0.3               http://www.multiprecision.org/mpc/download/mpc-1.0.3.tar.gz
+ppl-1.2                 http://bugseng.com/products/ppl/download/ftp/releases/1.2/ppl-1.2.tar.bz2
+cloog-0.18.4            ftp://gcc.gnu.org/pub/gcc/infrastructure/cloog-0.18.4.tar.gz
+isl-0.16.1	        ftp://gcc.gnu.org/pub/gcc/infrastructure/isl-0.16.1.tar.bz2
+tzdata2017c             ftp://ftp.iana.org/tz/releases/tzdata2017c.tar.gz
+expat-2.2.1		http://downloads.sourceforge.net/expat/expat-2.2.1.tar.bz2
+termcap-1.3.1		https://ftp.gnu.org/gnu/termcap/termcap-1.3.1.tar.gz
+python-2.7		http://master.qt.io/development_releases/prebuilt/gdb/build-prerequisites/python.zip
+localedef-2.19		part of eglibc-2_19 at http://www.eglibc.org/repository
